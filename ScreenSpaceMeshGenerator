@@ -140,10 +140,6 @@ public class ScreenSpaceMeshGenerator : MonoBehaviour
 		meshFilter.mesh = newMesh;
 		meshRenderer.material = targetObject.GetComponent<MeshRenderer>().sharedMaterial;
 	}
-
-	// 1- NEED UV FOR WORK RENDRER   if not   continue with normal renderer
-	// 2- mechanism Needle
-	// 2- edit full scene project (check) and trteb
 	
 }
 
